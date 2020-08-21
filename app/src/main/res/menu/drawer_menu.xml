@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/fistid">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Cantiques" />
+        <!--            android:icon="@drawable/ic_menu_camera"-->
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Recherche" />
+        <!--            android:icon="@drawable/ic_menu_gallery"-->
+
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Hymnes favoris" />
+        <!--            android:icon="@drawable/ic_menu_slideshow"-->
+
+
+        <item
+            android:id="@+id/nav_tools"
+            android:title="Categories" />
+        <!--            android:icon="@drawable/ic_menu_manage"-->
+
+
+    </group>
+
+    <group android:id="@+id/secondid">
+            <item
+                android:id="@+id/nav_send"
+                android:title="Reglages" />
+
+            <item
+                android:id="@+id/nav_send2"
+                android:title="A propos" />
+</group>
+
+</menu>
